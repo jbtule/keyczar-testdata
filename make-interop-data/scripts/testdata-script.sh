@@ -2,7 +2,7 @@
 #vars for creating test data
 PROGLANG="${1?'Missing lang identifier'}" #keyczartool implementation identifier
 KEYPROG="${2?'Missing keczar program'}" #how to execute the KeyczarTool
-TESTDATA="test/${PROGLANG}_data"
+TESTDATA="gen-interop-data/${PROGLANG}_data"
 
 #create symmetic signing key set
 $KEYPROG create --location="${TESTDATA}/hmac" --purpose="sign" --name="Test"
