@@ -16,9 +16,9 @@ make keyczart
 cd ../../../..
 #dotnet
 cd keyczar-dotnet/Keyczar
-.ci/RestoreNugetPackages.sh
-xbuild Keyczar.sln
-.ci/RunNUnit.sh
+.ci/PreXbuild.sh
+./mono-build.sh Keyczar.sln
+.ci/PostXbuild.sh
 cd ../..
 #go
 cd keyczar-go
