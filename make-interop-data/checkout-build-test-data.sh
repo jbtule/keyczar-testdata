@@ -4,8 +4,8 @@ scripts/clean-checkout.sh
 echo "Cloning sources..."
 scripts/clone-sources.sh > logs/clone.txt 2>&1
 echo "Building and testing sources..."
-scripts/build-test-sources.sh > logs/build-test.txt 2>&1
+scripts/build-test-sources.sh
 echo "Generating new interop-data..."
-scripts/keyczar-make-data.sh > logs/gen-data.txt 2>&1
+scripts/keyczar-make-data.sh
 echo "Done."
 ls logs gen-interop-data clones

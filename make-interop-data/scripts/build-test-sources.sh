@@ -1,27 +1,7 @@
 #!/bin/sh -x
-#java
-cd clones
-cd keyczar-main/java/code
-mvn package
-cd ../../..
-#python
-cd keyczar-main/python
-python setup.py build
-python setup.py test 
-cd ../..
-#c++
-cd keyczar-main/cpp/src/keyczar
-make kctests
-make keyczart
-cd ../../../..
-#dotnet
-cd keyczar-dotnet/Keyczar
-.ci/PreXbuild.sh
-./mono-build.sh Keyczar.sln
-.ci/PostXbuild.sh
-cd ../..
-#go
-cd keyczar-go
-go test -v
-#done
-cd ..
+scripts/build/java.sh > logs/build_java.txt  2>&1
+scripts/build/python.sh > logs/build_python.txt  2>&1
+scripts/build/python3.sh > logs/build_python3.txt 2>&1
+scripts/build/cpp.sh > logs/build_cpp.txt  2>&1
+scripts/build/dotnet.sh > logs/build_dotnet.txt  2>&1
+scripts/build/go.sh > logs/build_go.txt  2>&1

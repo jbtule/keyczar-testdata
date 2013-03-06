@@ -3,8 +3,8 @@ mkdir clones
 cd clones
 git clone --recursive  https://code.google.com/p/keyczar/ keyczar-main
 cd keyczar-main
-#pull in python fixes for usekey
-git pull https://code.google.com/r/jtuley-python-collisions
+#pull in python 2to3 
+git pull https://github.com/jbtule/keyczar-python2to3.git
 #pull in java fixes for usekey
 git pull https://code.google.com/r/jtuley-java-usekey-interop
 cd ..
