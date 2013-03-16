@@ -1,4 +1,9 @@
 #!/bin/sh -x
+cd clones/keyczar-go
+export GOPATH=`pwd`
+cd ../..
+./scripts/testdata-script.sh "go" "go run clones/keyczar-go/src/github.com/dgryski/dkeyczar/keyczart/dkeyczart.go" > logs/gen_go.txt 2>&1
+
 ./scripts/testdata-script.sh "cs" "mono clones/keyczar-dotnet/Keyczar/KeyczarTool/bin/Debug/KeyczarTool.exe" > logs/gen_dotnet.txt 2>&1
 
 # java requires http://code.google.com/r/jtuley-java-usekey-interop/
