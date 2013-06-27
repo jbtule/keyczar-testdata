@@ -5,6 +5,7 @@ aptget install python3-dev
 aptget install python-setuptools
 # dotnet
 aptget install mono-devel
+mozroots --import --sync
 # go
 aptget install golang
 go get "github.com/jessevdk/go-flags"
