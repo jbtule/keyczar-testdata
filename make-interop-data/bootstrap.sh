@@ -19,7 +19,6 @@ apt-get -y install python-setuptools
 apt-get -y install python3-setuptools
 # dotnet
 apt-get -y install mono-devel
-mozroots --import --sync
 # go
 apt-get -y install golang
 go get "github.com/jessevdk/go-flags"
