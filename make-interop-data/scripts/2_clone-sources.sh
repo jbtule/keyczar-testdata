@@ -6,6 +6,8 @@ cd keyczar-main
 git merge origin/cpp/all
 git merge origin/java/all
 git merge origin/python/all
+git submodule init
+git submodule update
 cd ..
 git clone --recursive https://github.com/jbtule/keyczar-dotnet.git keyczar-dotnet
 mkdir -p keyczar-go/src/github.com/dgryski
