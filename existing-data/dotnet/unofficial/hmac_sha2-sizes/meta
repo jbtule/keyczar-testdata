@@ -1,0 +1,1 @@
+{"format":"1","kind":"SYMMETRIC","name":"Test","purpose":"SIGN_AND_VERIFY","encrypted":false,"versions":[{"type":"C#_HMAC_SHA2","versionNumber":1,"exportable":false,"status":"ACTIVE"},{"type":"C#_HMAC_SHA2","versionNumber":2,"exportable":false,"status":"ACTIVE"},{"type":"C#_HMAC_SHA2","versionNumber":3,"exportable":false,"status":"PRIMARY"}]}
