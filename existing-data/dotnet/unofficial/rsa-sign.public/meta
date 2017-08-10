@@ -1,1 +1,1 @@
-{"name":"Test","purpose":"VERIFY","type":"C#_RSA_SIGN_PUB","encrypted":false,"versions":[{"versionNumber":1,"exportable":false,"status":"ACTIVE"},{"versionNumber":2,"exportable":false,"status":"PRIMARY"}]}
+{"format":"1","kind":"PUBLIC","name":"Test","purpose":"VERIFY","encrypted":false,"versions":[{"type":"C#_RSA_SIGN_PUB","keyId":"g5bWaA","versionNumber":1,"comment":null,"exportable":false,"status":"ACTIVE"},{"type":"C#_RSA_SIGN_PUB","keyId":"BYpSeg","versionNumber":2,"comment":null,"exportable":false,"status":"PRIMARY"}]}
