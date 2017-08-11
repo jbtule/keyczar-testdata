@@ -1,0 +1,1 @@
+{"format":"1","kind":"PRIVATE","name":"Test","purpose":"SIGN_AND_VERIFY","encrypted":false,"versions":[{"type":"C#_RSA_SIGN_PKCS15_PRIV","keyId":"-F1_YQ","versionNumber":1,"comment":null,"exportable":false,"status":"ACTIVE"},{"type":"C#_RSA_SIGN_PKCS15_PRIV","keyId":"xJ5CtA","versionNumber":2,"comment":null,"exportable":false,"status":"PRIMARY"}]}

@@ -1,0 +1,1 @@
+{"format":"1","kind":"PUBLIC","name":"Test","purpose":"VERIFY","encrypted":false,"versions":[{"type":"C#_RSA_SIGN_PCKS15_PUB","keyId":"-F1_YQ","versionNumber":1,"comment":null,"exportable":false,"status":"ACTIVE"},{"type":"C#_RSA_SIGN_PCKS15_PUB","keyId":"xJ5CtA","versionNumber":2,"comment":null,"exportable":false,"status":"PRIMARY"}]}
